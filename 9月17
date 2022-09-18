@@ -1,0 +1,67 @@
+<!Doctype html>
+<html>
+    <form action="travelreservationform.com">
+
+        <thead>
+            <h1>Travel reservation form</h1>
+            <h2>*denotes mandatory</h2>
+        </thead>
+
+    <div>
+        <label for="name">Full name*:</label>
+        <br>
+        <input type="name" placeholder="FirstName LastName" id="name">
+    </div><br>
+    <div>
+        <label for="email">Email address*:</label>
+        <br>
+        <input type="email" id="email"    </div><br>
+    <div>
+        <label for="Select">Select Tour Package*:</label>
+        <br>
+        <select name="select">
+            <option value=""> --Select city-- </option>
+            <optgroup label="Europe">
+                <option value="Paris">Paris</option>
+                <option value="London">London</option>
+            </optgroup>
+            <optgroup label="Asia">
+                <option value="Shenzhen">Shenzhen</option>
+                <option value="Seoul">Seoul</option>
+            </optgroup>
+            </select>
+    </div><br>
+    <div>
+        <label for="date">Date:</label>
+        <br>
+        <input type="date" id="date">
+    </div><br>
+    <div>
+        <label for="number">Number of persons*:</label>
+        <br>
+        <input type="number" id="number">
+    </div><br>
+    <div>
+        <legend>what would you want to avail?*</legend>
+        <label><input type="checkbox" name="activity" value="Boarding">Boarding</label><br>
+        <label><input type="checkbox" name="activity" value="Fooding">Fooding</label><br>
+        <label><input type="checkbox" name="activity" value="Sight seeing">Sight seeing</label>
+    </div><br>
+    <div>
+        <label for="code">Discount coupon code:</label>
+        <br>
+        <input type="text" placeholder="Enter here" id="code">
+    </div><br>
+    <div>
+        <legend>Terms and Conditions*</legend>
+        <label><input type="radio" name="choice" value="I agree">I agree</label>
+        <label><input type="radio" name="choice" value="I disagree">I disagree</label>
+    </div>
+    <br><br>
+    <button type="submit">Complete reservation</button>
+    
+    
+
+    </form>
+
+</html>
